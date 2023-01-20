@@ -1,7 +1,6 @@
-10 INPUT start
-20 INPUT end
-30 LET i = 1
-40 FOR i = start to end
-50 LET i += 1
+10 INPUT A,B
+20 LET sum = 0
+30 FOR i=A TO B+1
+40 sum += i
 60 PRINT i
 70 END
