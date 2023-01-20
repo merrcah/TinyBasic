@@ -1,0 +1,7 @@
+10 INPUT start
+20 INPUT end
+30 LET i = 1
+40 FOR i = start to end
+50 LET i += 1
+60 PRINT i
+70 END
